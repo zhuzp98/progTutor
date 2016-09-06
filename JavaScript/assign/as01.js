@@ -5,3 +5,6 @@
    How's it going?
    
  */
+
+console.log("Hey, what's up!");
+console.log("How's it going?");
