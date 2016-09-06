@@ -1,0 +1,10 @@
+* Powershell Commands
+** cd
+- change directory
+- cd xxx_directory
+** ls
+- list
+** cat
+- concatenate
+- cat filename
+

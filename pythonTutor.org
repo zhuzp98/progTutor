@@ -1,0 +1,53 @@
+* Day 01
+** Linux
+- Install Linux (Ubuntu GNOME 16.04 LTS)
+- cd
+- ls
+  - ls -a
+  - ls -l
+- sudo
+- apt
+  - update
+  - upgrade
+  - install
+- mkdir
+** Python
+- Use Python3
+- Use Gedit
+- print
+** Assignment
+- Practice Linux Shell
+- Practice writting and running python scripts
+* Day 02
+** Linux
+- touch
+- mv
+- cp
+  - cp -r
+- rm
+  - rm -r
+- rmdir
+** Python
+- variables
+- key concepts:
+  - everything is an object
+    - type
+    - mutable / immutable
+- type()
+- variables assignment
+- variable names
+  - lowercase letters
+  - uppercase letters
+  - digits (not at the beginning)
+  - underscores
+  - no reserved words
+- numbers
+  - integers
+  - floats
+  - basic calculations
+    - + - * / // %
+    - += -= ...
+    - precedence
+- type conversion
+** Assignments
+- A + B
