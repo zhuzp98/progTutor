@@ -15,3 +15,6 @@ console.log(number4*number5);
 console.log(number5/number4);
 sum = number4+number5;
 console.log(sum);
+
+number1 = 15;
+number1 = number1 + 5;
