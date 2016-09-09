@@ -1,0 +1,19 @@
+* Lesson 1
+- git config --global user.name "Your name"
+- git config --global user.email "email@example.com"
+
+* Lesson 2
+- git init
+- git add FILENAME
+- git commit -m "COMMIT MESSAGE"
+  
+* Lesson 3
+
+* Lesson 4
+- ssh-keygen -t rsa -C "email@example.com"
+** Lesson 4.1
+- git remote add origin git@github.com:wallyyang/repo.git
+- git push -u origin master
+- git push origin master
+** Lesson 4.2
+- git clone git@github.com:wallyyang/repo.git
