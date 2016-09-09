@@ -30,3 +30,4 @@ console.log(remainder);
 
 var bigNumber = 2345;
 var smallDigit = 2345 % 100;
+console.log(smallDigit)；
