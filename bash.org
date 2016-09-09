@@ -1,0 +1,11 @@
+* Bash Commands
+** cd
+** ls
+** mkdir
+** apt
+** sudo
+** touch
+** mv
+** cp
+** rm
+** rmdir
