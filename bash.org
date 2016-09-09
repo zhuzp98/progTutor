@@ -1,11 +1,23 @@
 * Bash Commands
-** cd
-** ls
-** mkdir
+** Directory Operations
+*** cd
+- NAME: change the working directory
+- USAGE: cd [directory]
+*** ls
+- NAME: list directory contents
+- USAGE: ls
+  - ls -a
+  - ls -l
+*** mkdir
+- NAME: make directories
+- USAGE: mkdir [directory name]
+  - mkdir -p
+*** rmdir
+- NAME: remove empty directoryies
+- USAGE: rmdir
 ** apt
 ** sudo
 ** touch
 ** mv
 ** cp
 ** rm
-** rmdir
