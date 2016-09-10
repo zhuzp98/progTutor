@@ -5,3 +5,9 @@
 
    firstname lastname, email@example.com
 */
+
+var str1 = "Zhipeng";
+var str2 = "Zhu";
+var str3 = "jsyxzzp@outlook.com";
+
+console.log(str1 + " " + str2 + "," + " " + str3);
