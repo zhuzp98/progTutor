@@ -8,3 +8,18 @@
    declare three variables for each payment
    print the each payments and total on the screen;
 */
+
+var distance = 16;
+
+console.log("Payment:")
+if (distance <= 5) {
+	console.log("$9 (distance <= 5km)");
+}
+else if (5 < distance && distance <= 10) {
+	console.log("$" + (5 + (distance - 5) * 1.6) ); 
+	console.log("(disntance 5km<d<=10km)");
+}
+else {
+	console.log("$" + (13 + (distance -10) * 2.6)); 
+	console.log("(distance >10km)");
+}
