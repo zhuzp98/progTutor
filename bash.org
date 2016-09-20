@@ -21,3 +21,10 @@
 ** mv
 ** cp
 ** rm
+** Java
+*** javac
+- NAME: Java Compiler
+- USAGE: javac file.java
+*** java
+- NAME: Java Virtual Machine
+- USAGE: java file
