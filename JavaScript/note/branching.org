@@ -28,11 +28,25 @@
       statements;
   }
 #+END_SRC
+** Relation Operators
+- a > b :: a is greater than b
+- a < b :: a is less than b
+- a >= b :: a is greater than or equal to b
+- a <= b :: a is less than or equal to b
+- a == b :: a is equal to b
+- a != b :: a is not equal to b
 ** Boolean Expressions
-- expression1 && expression2
+- expression1 && expression2 :: and
   - is true if expression1 and expression2 are both true
-- expression1 || expression2
+- expression1 || expression2 :: or
   - is true as long as one of expression1 and expression2 is true
-- ! expression
+- ! expression :: not
   - is false if expression is true
   - is true if expression is false
+- Multiple expression can be conbined with parentheses
+  - e.g.
+#+BEGIN_SRC javascript
+  if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
+      console.log(year + " is leap year");
+  }
+#+END_SRC
