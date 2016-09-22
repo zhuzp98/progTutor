@@ -1,0 +1,38 @@
+* JavaScript Branching
+** if Statements
+- if
+#+BEGIN_SRC javascript
+  if (condition) {
+      statements;
+  }
+#+END_SRC
+- if-else
+#+BEGIN_SRC javascript
+  if (condition) {
+      statements;
+  }
+  else {
+      statements;
+  }
+#+END_SRC
+- if-else if-...-else
+#+BEGIN_SRC javascript
+  if (condition) {
+      statements;
+  }
+  else if (condtion2) {
+      statements;
+  }
+  ...
+  else {
+      statements;
+  }
+#+END_SRC
+** Boolean Expressions
+- expression1 && expression2
+  - is true if expression1 and expression2 are both true
+- expression1 || expression2
+  - is true as long as one of expression1 and expression2 is true
+- ! expression
+  - is false if expression is true
+  - is true if expression is false
