@@ -1,12 +1,15 @@
 /**
    This program prints Hello for n times
 */
-var n = 1;
+var n = 0;
 var i = 1;
 
-while (i <= n) {
+if (n == 0) {
     console.log("Hello");
-    i++;
+}
+while ( i <= n) {
+	console.log("Hello");
+	i++;
 }
 
 console.log("Bye!");
