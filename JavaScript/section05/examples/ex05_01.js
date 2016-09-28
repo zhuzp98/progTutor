@@ -5,3 +5,4 @@ for (var i = 0; i < arr.length; i++) {
 
     console.log("Array at " + i + " = " + arr[i]);
 }
+console.log(arr);
